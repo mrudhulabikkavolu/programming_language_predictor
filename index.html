@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Programming Language Predictor</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Programming Language Predictor</h1>
+
+<form action="/predict" method="post">
+
+<textarea name="code" placeholder="Enter code snippet here..." required></textarea>
+
+<br>
+
+<button type="submit">Predict Language</button>
+
+</form>
+
+{% if prediction %}
+
+<h2>Predicted Language: {{ prediction }}</h2>
+
+{% endif %}
+
+</div>
+
+</body>
+</html>

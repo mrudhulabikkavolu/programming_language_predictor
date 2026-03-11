@@ -1,0 +1,36 @@
+code,language
+"print('Hello World')",Python
+"print('Sum =',a+b)",Python
+"for i in range(5): print(i)",Python
+"def add(a,b): return a+b",Python
+"import numpy as np",Python
+"print(len(list))",Python
+"x=[1,2,3]; print(x)",Python
+"if x>5: print('big')",Python
+
+"#include<stdio.h>",C
+"printf('Hello World');",C
+"int main(){return 0;}",C
+"scanf('%d',&a);",C
+"int a=10;",C
+"for(int i=0;i<5;i++){printf('%d',i);}",C
+"float num=10.5;",C
+"char name[20];",C
+
+"System.out.println('Hello');",Java
+"public class Test{}",Java
+"int a=5;",Java
+"for(int i=0;i<5;i++){}",Java
+"Scanner sc=new Scanner(System.in);",Java
+"String name='John';",Java
+"class HelloWorld{}",Java
+"public static void main(String args[]){}",Java
+
+"console.log('Hello');",JavaScript
+"let x=10;",JavaScript
+"function add(a,b){return a+b;}",JavaScript
+"document.getElementById('demo')",JavaScript
+"var name='John';",JavaScript
+"alert('Welcome')",JavaScript
+"for(let i=0;i<5;i++){}",JavaScript
+"const pi=3.14;",JavaScript
